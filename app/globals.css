@@ -76,7 +76,12 @@ body,
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.focus-visible\:ring-ring:focus-visible {
+  --tw-ring-color: none !important;
 }
