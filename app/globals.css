@@ -85,3 +85,8 @@ body,
 .focus-visible\:ring-ring:focus-visible {
   --tw-ring-color: none !important;
 }
+
+.lk-focus-layout-wrapper,
+.lk-grid-layout-wrapper {
+  max-height: 840px;
+}
