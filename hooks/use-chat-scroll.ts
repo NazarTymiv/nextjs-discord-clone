@@ -23,7 +23,7 @@ export const useChatScroll = ({
     const handleScroll = () => {
       const scrollTop = topDiv?.scrollTop
 
-      if (scrollTop === 0 && shouldLoadMore) {
+      if (scrollTop && scrollTop <= 500 && shouldLoadMore) {
         loadMore()
       }
     }
@@ -52,16 +52,12 @@ export const useChatScroll = ({
         return false
       }
 
-      const distanceFromBottom = topDiv.scrollHeight - topDiv.scrollTop - topDiv.clientHeight
-
-      return distanceFromBottom <= 100
+      return true
     }
 
     if (shouldAutoScroll()) {
       setTimeout(() => {
-        bottomRef.current?.scrollIntoView({
-          behavior: "smooth"
-        })
+        bottomRef.current?.scrollIntoView()
       }, 100);
     }
   }, [bottomRef, chatRef, count, hasInitialized])
