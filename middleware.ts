@@ -2,7 +2,7 @@ import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
 const isProtectedRoute = createRouteMatcher([
   '/',
-  '/servers/:id'
+  '/servers'
 ]);
 
 export default clerkMiddleware((auth, req) => {
@@ -10,5 +10,5 @@ export default clerkMiddleware((auth, req) => {
 });
 
 export const config = {
-  matcher: ["/((?!.+.[w]+$|_next).*)", "/", "/(api|trpc)(.*)", "/((?!proxy|favicon.ico).*)"],
+  matcher: ["/((?!.+.[w]+$|_next).*)", "/", "/(api|trpc)(.*)", "/((?!socket|favicon.ico).*)"],
 };

@@ -50,7 +50,7 @@ export const EditChannelModal = () => {
     }
   }, [form, channel])
 
-  const isLoading = form.formState.isLoading
+  const isLoading = form.formState.isSubmitting
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
