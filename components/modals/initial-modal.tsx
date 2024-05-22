@@ -39,7 +39,7 @@ export const InitialModal = () => {
     }
   })
 
-  const isLoading = form.formState.isSubmitted
+  const isLoading = form.formState.isSubmitting
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
