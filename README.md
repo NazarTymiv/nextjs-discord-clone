@@ -37,7 +37,7 @@ This application is a clone of Discord, built using Next.js, offering text, voic
 
 ### Features
 
-- **Text Communication**: Chat with other users in real-time. Supports private messages and group chats, with options for markdown formatting and emoji reactions.
+- **Text Communication**: Chat with other users in real-time. Supports private messages and group chats, with emoji reactions.
 
 - **Voice Communication**: Engage in voice calls with individuals or groups. High-quality audio with low latency ensures a smooth communication experience.
 
@@ -47,7 +47,7 @@ This application is a clone of Discord, built using Next.js, offering text, voic
 
 - **Channel Management**: Set up channels within servers for organized discussions. Channels can be categorized and configured as text, voice, or video channels.
 
-- **Invitations**: Invite others to join your servers and channels. Generate invite links with customizable settings for expiration and usage limits to control access.
+- **Invitations**: Invite others to join your servers and channels.
 
 - **User Authentication**: Secure user registration and login system to protect user data.
 
