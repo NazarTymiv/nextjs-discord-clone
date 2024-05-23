@@ -29,7 +29,7 @@
 
 ## About The Project
 
-![Screen Shot]()
+![Screen Shot](https://nazar-tymiv.netlify.app/static/media/09.18d0b06066d86ad00aa9.png)
 
 ### Discord Clone
 
@@ -120,6 +120,25 @@ This application is a clone of Discord, built using Next.js, offering text, voic
 </div>
 
 ## Usage
+
+When you open this application for the first time, you will be prompted to log in or create a new account.
+
+**To log in, use the following credentials:**
+
+- **Email:** `twzoofgeyvbnyocwcu@ckptr.com`
+- **Password:** `twzoofgeyvbnyocwcu`
+
+**To create a new account, follow these steps:**
+
+1. Go to [10 Minute Mail](https://10minutemail.com/).
+2. Copy the temporary email address provided by the website.
+3. In the application, paste this email into the email field for creating a new account and set a password `(do not use your real password)`.
+4. After registering, the application will ask you to confirm your email address. Return to [10 Minute Mail](https://10minutemail.com/), scroll down, and find the new message containing the confirmation code.
+5. Copy the confirmation code and paste it into the application's confirmation field.
+
+You can also create a new account using your real email if you prefer.
+
+_Vide of how to use this application coming soon._
 
 ## Authors
 
